@@ -2,8 +2,9 @@
 // Copyright 2019, Pete R. Jemian
 // license ? CC?
 
-#define TITLE "blnuhr"
+#define TITLE     "blnuhr"
 #define COPYRIGHT "Copyright 2019, Pete R. Jemians"
+#define URL       "https://github.com/prjemian/blnuhr_touchscreen"
 
 // based on:
 //   Arduino Mega 2560
@@ -76,13 +77,11 @@ void setup() {
   Serial.println("setup() duration: " + String(0.001*(millis() - time_00), 3) + "s");
 
   tft.setTextSize(2);
-  tft.setCursor(BORDER*2, BORDER*2);
-  tft.print(TITLE);
+  tft.setCursor(BORDER*2, BORDER*2);      tft.print(TITLE);
   tft.setTextSize(1);
-  tft.setCursor(BORDER*2, BORDER*5);
-  tft.print(COPYRIGHT);
-  tft.setCursor(BORDER*2, BORDER*10);
-  tft.print("fur Dieter Fuelleborn");
+  tft.setCursor(BORDER*2, BORDER*5);      tft.print(COPYRIGHT);
+  tft.setCursor(BORDER*2, BORDER*7);      tft.print(URL);
+  tft.setCursor(BORDER*2, BORDER*10);     tft.print("fur Dieter Fuelleborn");
   delay(5000);
   drawStandardBackground();
 }
