@@ -1,5 +1,8 @@
 // blnuhr_rtc.ino
 
+// uses: Rtc by Makuna from Arduino Library installer, 2.3.4
+// support: https://github.com/Makuna/Rtc
+
 #include "blnuhr_rtc.h"
 #include "blnuhr_screen.h"
 
@@ -74,4 +77,3 @@ void printLabeledTime(char *label, const RtcDateTime& dt) {
     printDateTime(dt);
     Serial.println("");
 }
-

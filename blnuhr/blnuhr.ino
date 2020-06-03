@@ -11,6 +11,14 @@
 //   Velleman VMA412 2.8" 240x320 TouchScreen
 //   DS3231 Real Time Clock
 
+//  required library (use included installer)     version
+//  ============================================  =======
+//  Rtc by Makuna from Arduino Library installer  2.3.4
+//  Adafruit GFX Library                          1.8.4
+//  Adafruit TFTLCD Library                       1.0.2
+//  MCUFRIEND_kbv                                 2.9.8
+//  Adafruit Touchscreen                          1.1.0
+
 #include "blnuhr.h"
 #include "blnuhr_rtc.h"
 #include "blnuhr_screen.h"
@@ -196,4 +204,3 @@ void check_touch_in_clock_mode() {
     }
   }
 }
-

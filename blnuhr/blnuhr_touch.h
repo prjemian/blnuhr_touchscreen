@@ -1,5 +1,7 @@
 // blnuhr_touch.h
 
+// uses: Adafruit Touchscreen 1.1.0
+
 #ifndef BLNUHR_TOUCH
 #define BLNUHR_TOUCH
 
@@ -43,4 +45,3 @@ void print_down_up_duration();
 void print_non_idle_event(TSPoint p);
 
 #endif BLNUHR_TOUCH
-

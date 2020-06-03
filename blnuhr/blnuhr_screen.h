@@ -1,5 +1,9 @@
 // blnuhr_screen.h
 
+// uses: Adafruit GFX Library 1.8.4
+// uses: Adafruit TFTLCD Library 1.0.2
+// uses: MCUFRIEND_kbv 2.9.8
+
 #ifndef BLNUHR_SCREEN
 #define BLNUHR_SCREEN
 
@@ -50,4 +54,3 @@ void start_temperature();
 void loop_temperature();
 
 #endif BLNUHR_SCREEN
-
