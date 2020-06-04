@@ -7,8 +7,9 @@
 #define URL       "https://github.com/prjemian/blnuhr_touchscreen"
 
 // based on:
+//   Tools->Board->Arduino Mega ADK
 //   Arduino Mega 2560
-//   Velleman VMA412 2.8" 240x320 TouchScreen
+//   TFT LCD 2.8" 240x320 TouchScreen (Velleman VMA412 or Elegoo EL-SM-004)
 //   DS3231 Real Time Clock
 
 //  required library (use included installer)     version
