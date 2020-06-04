@@ -223,4 +223,3 @@ bool process_button_press(int button_index) {
 
   return(keep_looping);
 }
-
