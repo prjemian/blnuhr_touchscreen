@@ -14,5 +14,4 @@ void setup_RTC(RtcDS3231<TwoWire> Rtc);
 void printDateTime(const RtcDateTime& dt);
 void printLabeledTime(char *label, const RtcDateTime& dt);
 
-#endif BLNUHR_RTC
-
+#endif // BLNUHR_RTC

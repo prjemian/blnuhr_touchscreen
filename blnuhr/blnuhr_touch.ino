@@ -9,8 +9,8 @@ bool touch_pressed = false;
 unsigned long  ts_flicker_start;
 enum ts_touch_states_enum   touch_state = TS_IDLE;
 enum ts_touch_states_enum   touch_state_previous = touch_state;
-unsigned long  time_pressed = NULL;
-unsigned long  touch_duration = NULL;
+unsigned long  time_pressed = (unsigned long) NULL;
+unsigned long  touch_duration = (unsigned long) NULL;
 
 //  #define RX_CONSTANT 300
 #define RX_CONSTANT 0
@@ -115,4 +115,3 @@ void print_non_idle_event(TSPoint p) {
     Serial.println();
   }
 }
-

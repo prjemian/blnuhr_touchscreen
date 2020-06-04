@@ -53,4 +53,4 @@ void drawStandardBackground();
 void start_temperature();
 void loop_temperature();
 
-#endif BLNUHR_SCREEN
+#endif // BLNUHR_SCREEN

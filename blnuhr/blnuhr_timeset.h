@@ -28,5 +28,4 @@ void makeSpinButton(Adafruit_GFX_Button *btn, int x, int y, int digit);
 int getButtonIndex(int x, int y, Adafruit_GFX_Button **pb);
 bool process_button_press(int button_index);
 
-#endif BLNUHR_TIMESET
-
+#endif // BLNUHR_TIMESET

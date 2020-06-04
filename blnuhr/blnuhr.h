@@ -21,4 +21,4 @@ enum display_modes_enum {DISPLAY_CLOCK, DISPLAY_TEMPERATURE, DISPLAY_TIMESET};
 
 void check_touch_in_clock_mode();
 
-#endif BLNUHR
+#endif // BLNUHR

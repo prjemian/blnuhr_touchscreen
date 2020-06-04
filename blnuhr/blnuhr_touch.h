@@ -29,7 +29,7 @@
 #define TOUCH_SMOOTHING_FACTOR 0.7
 #define SMOOTH(avg, new_value) (TOUCH_SMOOTHING_FACTOR*avg + (1-TOUCH_SMOOTHING_FACTOR)*new_value)
 
-typedef enum ts_touch_states_enum {TS_IDLE, TS_PRESSED, TS_DOWN, TS_FLICKER, TS_RELEASED};
+enum ts_touch_states_enum {TS_IDLE, TS_PRESSED, TS_DOWN, TS_FLICKER, TS_RELEASED};
 // TS_IDLE      no touch screen event at this time
 // TS_PRESSED   touch screen was just pressed
 // TS_DOWN      touch screen still pressed
@@ -44,4 +44,4 @@ void ts2pixel(TSPoint p, int *x, int *y);
 void print_down_up_duration();
 void print_non_idle_event(TSPoint p);
 
-#endif BLNUHR_TOUCH
+#endif // BLNUHR_TOUCH
