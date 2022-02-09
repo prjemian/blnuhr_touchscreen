@@ -1,5 +1,6 @@
 # blnuhr_touchscreen
 
+The time is 13:19
 ![the time is 13:19](images/20220209_131801.jpg)
 
 [Arduino sketch for blnuhr clock](blnuhr/blnuhr.ino)
