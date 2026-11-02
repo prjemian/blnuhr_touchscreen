@@ -176,6 +176,15 @@ bool process_button_press(int button_index) {
     keep_looping = false;
 
   } else if (button_index == BTN_OK) {
+    // Preserve the current seconds instead of the value captured on entry.
+    RtcDateTime current_time = Rtc.GetDateTime();
+    edited_time = RtcDateTime(
+        current_time.Year(),
+        current_time.Month(),
+        current_time.Day(),
+        edited_time.Hour(),
+        edited_time.Minute(),
+        current_time.Second());
     printLabeledTime("Updating RTC: ", edited_time);
     Rtc.SetDateTime(edited_time);
     keep_looping = false;
